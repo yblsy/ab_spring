@@ -21,7 +21,7 @@ public class FileUploadController {
 
     @RequestMapping(value = "fileUpload")
     public String fileUpload(HttpServletRequest requst,MultipartFile multipartFile){
-        log.info("123123123123123132");
+        log.info("123123122");
         return "multipartfile/multipartFile";
     }
 }
